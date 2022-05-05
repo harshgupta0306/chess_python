@@ -1,0 +1,38 @@
+main logic chess:
+1. peices determination :
+ black : 	
+	8 pawns, 1 king, 1 queen ,2 rooks , 2knights ,2 bishops 
+ white : 	
+	8 pawns, 1 king, 1 queen ,2 rooks , 2knights ,2 bishops 
+
+2. board : 
+	8 * 8 board 
+3. rules
+movement:
+pawn : 	
+	can move just forward and 1 step 
+	takes another peice digonaly
+             	can move 2 steps if untouched since game  started 
+
+rook :	
+	can move horizontal and vertical 
+bishop:
+	can move digonaly ony 
+	there are two bishops on each side: 
+		one on black square 
+		one on white square 
+knight : 
+	can jump over other player 
+	it moves in "L" shape manner 
+	two step vertical and one step horizontal
+		OR
+	two step horizontal and one step vertical 
+queen :
+	it can move in any direction
+	
+	but cannot jump over other players like knight 
+king : 
+	it can move only one step in any direction
+
+  	
+4. logics on rules :
