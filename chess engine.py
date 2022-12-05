@@ -1466,9 +1466,9 @@ while run:
         peices_dist(pieces.board)
          
     choosen_peice_index = choose_peice(turn)
-    # if turn == "black":
-    #     if jeet == None:
-    #         evalution,ai_move,choosen_peice_index = minmax(2,True,pieces.board,float('-inf'),float('inf'),turn)
+    if turn == "black":
+        if jeet == None:
+            evalution,ai_move,choosen_peice_index = minmax(2,True,pieces.board,float('-inf'),float('inf'),turn)
 
     
     if choosen_peice_index != None:
@@ -1508,9 +1508,9 @@ while run:
                 else :
                     flip = "black"        
         move = move_to()
-        # if turn =="black":
-        #     if jeet == None:
-        #         move = ai_move
+        if turn =="black":
+            if jeet == None:
+                move = ai_move
         if move != None:
             
             move_made = True
